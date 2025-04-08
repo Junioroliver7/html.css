@@ -17,15 +17,33 @@ body {
 header {
   background-color: #f3e4e4e5;
   padding: 10px;
-}
 
-header h1 {
-  border: 1px solid black;
-  font-size: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav {
-  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+}
+
+header nav a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+header nav a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
 }
 
 header img {
@@ -33,6 +51,8 @@ header img {
   width: 130px;
   border-radius: 50%;
   padding: 5px;
+  margin-bottom: 8px;
+  flex: 0 0 130px;
 }
 main {
   background-color: white;
