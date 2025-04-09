@@ -10,11 +10,23 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="screen and (max-width: 580px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <img src="imagens/logo.loja.jpeg" alt="logo loja" />
-      <nav>
+      <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"
+        >menu</span
+      >
+      <nav id="itens">
         <a href="#">Esportes</a>
         <a href="#">Homens</a>
         <a href="#">Mulheres</a>
@@ -41,5 +53,22 @@
         numquam qui neque, totam deserunt.
       </p>
     </main>
+    <script>
+      function mudouTamanho() {
+        if (window.innerWidth >= 580) {
+          itens.style.display = "block";
+        } else {
+          itens.style.display = "none";
+        }
+      }
+
+      function clickMenu() {
+        if (itens.style.display == "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
