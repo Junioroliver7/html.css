@@ -8,6 +8,10 @@
   padding: 0px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header,
 header nav {
   flex-flow: column nowrap;
@@ -50,7 +54,7 @@ nav a {
 }
 
 main {
-  width: 100vw;
+  width: 90vw;
   background-color: white;
   margin: auto;
   margin-top: 10px;
