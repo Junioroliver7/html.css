@@ -14,12 +14,12 @@ header nav {
 }
 
 header nav a {
-    width: 90vw;
+  width: 90vw;
 }
 
 #burguer {
-  background-color:#ebe1e1b9;
-  color:black;
+  background-color: #ebe1e1b9;
+  color: black;
   display: block;
   text-align: center;
   padding: 10px;
@@ -50,7 +50,7 @@ nav a {
 }
 
 main {
-  width: 90vw;
+  width: 100vw;
   background-color: white;
   margin: auto;
   margin-top: 10px;
