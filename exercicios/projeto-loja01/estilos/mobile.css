@@ -1,0 +1,19 @@
+@charset "URF-8";
+
+header.container img#logo-loja {
+  display: block;
+  margin: auto;
+}
+
+header h2 {
+  font-size: 30px;
+}
+
+nav a {
+  background-color: rgba(134, 31, 31, 0.37);
+  border-radius: 10px 10px;
+  font-size: 15px;
+}
+nav a:hover {
+  color: white;
+}
