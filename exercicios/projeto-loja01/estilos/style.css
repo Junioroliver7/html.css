@@ -2,6 +2,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 1em;
 }
 
 header.container {
@@ -27,7 +32,7 @@ h2:hover {
   color: white;
 }
 
-nav  {
+nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -67,16 +72,12 @@ a {
   padding-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}

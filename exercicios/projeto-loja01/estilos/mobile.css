@@ -1,4 +1,14 @@
 @charset "URF-8";
+/*VERSÃO PARA CELULAR*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
 
 header.container img#logo-loja {
   display: block;
@@ -6,14 +16,11 @@ header.container img#logo-loja {
 }
 
 header h2 {
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
 nav a {
-  background-color: rgba(134, 31, 31, 0.37);
-  border-radius: 10px 10px;
-  font-size: 15px;
-}
-nav a:hover {
-  color: white;
+  flex-flow: column wrap;
+  width: 90vw;
+  font-size: 0.9em;
 }
